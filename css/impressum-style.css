@@ -75,6 +75,13 @@ h1 {
   line-height: 3em;
 }
 @media (max-width: 960px) {
+  .uk-navbar li {
+    background-color: hsl(0, 0%, 68%);
+  }
+  .logo-semas {
+    background-color: #f8f8f8 !important    ;
+  }
+
   .uk-navbar .toggle-target.collapsed {
     display: none;
   }
